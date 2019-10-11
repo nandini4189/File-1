@@ -1,0 +1,29 @@
+<html>
+<head>
+<title><center><h3> Welcome to stratApps</h3></center></title>
+</head>
+<body bgcolor="#AAAAA5">
+		<h1> <center>StratApps Main Page</center></h1>
+		<marquee behaviour='alternative'> StratApps</marquee>
+		<h3> Flowers</h3>
+		<ol>
+			<li>Jasmine</li>
+			<li>Sun Flower</li>
+			<li>Rose</li>
+		</ol>
+		<h3> Fruits</h3>
+		<ol>
+			<li>Mango</li>
+			<li>Oranges</li>
+			<li>Grapes</li>
+		</ol>
+		<img src="C:\Html\Images\Rose.jpeg" alt="Rose" style="width:500px;height:300px;">
+		<p> GitHub is a devolopment platform for open source to business,
+    we can host code and review code,manage projects and to build software alongside millions of other devolopers.
+    Anyone can contribute to the linus kernal. 
+    In this world millions of software programmers they can be work on single project 
+    how  can they manage is it easy to manage that, no its very difficult to manage that project .
+    In Git merging of all these sources merging of different things, different people provided by Git .
+		</p>
+				</body>
+</html>
