@@ -1,0 +1,26 @@
+DECLARE
+    num number := &n;
+    n1 number := 0;
+    n2 number := 1;
+    n3 number;
+BEGIN
+    dbms_output.put_line(n1);
+    dbms_output.put_line(n2);
+    for i in 3..num
+loop
+     n3 := n1 + n2;
+     dbms_output.put_line(n3);
+     n1 := n2;
+     n2 := n3;
+end loop;
+END;
+
+
+
+
+
+
+
+
+
+
