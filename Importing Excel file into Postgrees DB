@@ -1,0 +1,18 @@
+#!/usr/bin/env SQL
+
+#Importing an Excel table into Postgres
+# 1) Save Excel file in a .csv format with just 1 header
+# ex: 
+example_file.csv
+# 2) Save file in C:/PostgreSQL/9.3/data (important that this file is within "data")
+#    so Postgres has the right file permissions
+# 3) Need to create an empty table schema capable of storing the data
+# 4) ex:
+create table example_table(gid numeric, province character varying(10), "name" character varying(68),
+ pop1996 numeric)
+# 5) Now we can import the csv file into our empty table schema with the following query:
+COPY example_table(gid, province, "name", pop1996)
+FROM  'csv/example_file.csv'
+WITH DELIMITER ','
+CSV header
+# 6) Dont't forget putting Primary keys to new table
